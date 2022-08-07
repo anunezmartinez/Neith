@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72BEC0F28A04BF900919EBC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B72BEC0E28A04BF900919EBC /* README.md */; };
 		B7460726289F71F600DF7BA9 /* NeithApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460725289F71F600DF7BA9 /* NeithApp.swift */; };
 		B7460728289F71F600DF7BA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460727289F71F600DF7BA9 /* ContentView.swift */; };
 		B746072A289F71F700DF7BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7460729289F71F700DF7BA9 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B72BEC0E28A04BF900919EBC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7460722289F71F600DF7BA9 /* Neith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7460725289F71F600DF7BA9 /* NeithApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeithApp.swift; sourceTree = "<group>"; };
 		B7460727289F71F600DF7BA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +73,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B72BEC0D28A0330900919EBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B7460719289F71F600DF7BA9 = {
 			isa = PBXGroup;
 			children = (
+				B72BEC0E28A04BF900919EBC /* README.md */,
 				B7460724289F71F600DF7BA9 /* Neith */,
 				B7460735289F71F700DF7BA9 /* NeithTests */,
 				B746073F289F71F700DF7BA9 /* NeithUITests */,
@@ -94,10 +104,10 @@
 		B7460724289F71F600DF7BA9 /* Neith */ = {
 			isa = PBXGroup;
 			children = (
+				B746072B289F71F700DF7BA9 /* Preview Content */,
+				B72BEC0D28A0330900919EBC /* Resources */,
 				B7460725289F71F600DF7BA9 /* NeithApp.swift */,
 				B7460727289F71F600DF7BA9 /* ContentView.swift */,
-				B7460729289F71F700DF7BA9 /* Assets.xcassets */,
-				B746072B289F71F700DF7BA9 /* Preview Content */,
 			);
 			path = Neith;
 			sourceTree = "<group>";
@@ -105,6 +115,7 @@
 		B746072B289F71F700DF7BA9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B7460729289F71F700DF7BA9 /* Assets.xcassets */,
 				B746072C289F71F700DF7BA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72BEC0F28A04BF900919EBC /* README.md in Resources */,
 				B746072D289F71F700DF7BA9 /* Preview Assets.xcassets in Resources */,
 				B746072A289F71F700DF7BA9 /* Assets.xcassets in Resources */,
 			);
@@ -417,8 +429,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neith/Preview Content\"";
+				DEVELOPMENT_TEAM = RKJ7HYD9NT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Autenticate;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +460,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neith/Preview Content\"";
+				DEVELOPMENT_TEAM = RKJ7HYD9NT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Autenticate;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
