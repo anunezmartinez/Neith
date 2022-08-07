@@ -1,2 +1,6 @@
 # Neith
-## Features - Face ID 
+## Features 
+Face ID ✅
+Splash Screen ❌
+Safari Webview ❌
+
