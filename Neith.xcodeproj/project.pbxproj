@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B72BEC0F28A04BF900919EBC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B72BEC0E28A04BF900919EBC /* README.md */; };
+		B72BEC1928A97CFC00919EBC /* ContentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BEC1828A97CFC00919EBC /* ContentPreview.swift */; };
+		B72BEC1B28A97D5C00919EBC /* AuthSucc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BEC1A28A97D5C00919EBC /* AuthSucc.swift */; };
+		B72BEC1E28A98AEB00919EBC /* VerifyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BEC1D28A98AEB00919EBC /* VerifyUser.swift */; };
 		B7460726289F71F600DF7BA9 /* NeithApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460725289F71F600DF7BA9 /* NeithApp.swift */; };
-		B7460728289F71F600DF7BA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460727289F71F600DF7BA9 /* ContentView.swift */; };
+		B7460728289F71F600DF7BA9 /* FaceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460727289F71F600DF7BA9 /* FaceAuth.swift */; };
 		B746072A289F71F700DF7BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7460729289F71F700DF7BA9 /* Assets.xcassets */; };
 		B746072D289F71F700DF7BA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B746072C289F71F700DF7BA9 /* Preview Assets.xcassets */; };
 		B7460737289F71F700DF7BA9 /* NeithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460736289F71F700DF7BA9 /* NeithTests.swift */; };
@@ -36,9 +39,12 @@
 
 /* Begin PBXFileReference section */
 		B72BEC0E28A04BF900919EBC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B72BEC1828A97CFC00919EBC /* ContentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPreview.swift; sourceTree = "<group>"; };
+		B72BEC1A28A97D5C00919EBC /* AuthSucc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSucc.swift; sourceTree = "<group>"; };
+		B72BEC1D28A98AEB00919EBC /* VerifyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyUser.swift; sourceTree = "<group>"; };
 		B7460722289F71F600DF7BA9 /* Neith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7460725289F71F600DF7BA9 /* NeithApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeithApp.swift; sourceTree = "<group>"; };
-		B7460727289F71F600DF7BA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7460727289F71F600DF7BA9 /* FaceAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAuth.swift; sourceTree = "<group>"; };
 		B7460729289F71F700DF7BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B746072C289F71F700DF7BA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7460732289F71F700DF7BA9 /* NeithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeithTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +86,31 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B72BEC1028A97B4900919EBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7460727289F71F600DF7BA9 /* FaceAuth.swift */,
+				B72BEC1A28A97D5C00919EBC /* AuthSucc.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B72BEC1528A97CB800919EBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B72BEC1828A97CFC00919EBC /* ContentPreview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B72BEC1C28A9819000919EBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B72BEC1D28A98AEB00919EBC /* VerifyUser.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B7460719289F71F600DF7BA9 = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +135,12 @@
 		B7460724289F71F600DF7BA9 /* Neith */ = {
 			isa = PBXGroup;
 			children = (
+				B72BEC1C28A9819000919EBC /* Controller */,
+				B72BEC1528A97CB800919EBC /* View */,
+				B72BEC1028A97B4900919EBC /* Model */,
 				B746072B289F71F700DF7BA9 /* Preview Content */,
 				B72BEC0D28A0330900919EBC /* Resources */,
 				B7460725289F71F600DF7BA9 /* NeithApp.swift */,
-				B7460727289F71F600DF7BA9 /* ContentView.swift */,
 			);
 			path = Neith;
 			sourceTree = "<group>";
@@ -269,7 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7460728289F71F600DF7BA9 /* ContentView.swift in Sources */,
+				B72BEC1E28A98AEB00919EBC /* VerifyUser.swift in Sources */,
+				B72BEC1928A97CFC00919EBC /* ContentPreview.swift in Sources */,
+				B72BEC1B28A97D5C00919EBC /* AuthSucc.swift in Sources */,
+				B7460728289F71F600DF7BA9 /* FaceAuth.swift in Sources */,
 				B7460726289F71F600DF7BA9 /* NeithApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +468,7 @@
 				DEVELOPMENT_TEAM = RKJ7HYD9NT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = Autenticate;
-				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,8 +498,7 @@
 				DEVELOPMENT_TEAM = RKJ7HYD9NT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = Autenticate;
-				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitas autenticarte con un sensor biométrico.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

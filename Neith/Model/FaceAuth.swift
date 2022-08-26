@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FaceAuth.swift
 //  Neith
 //
 //  Created by Adrian Nuñez Martíez on 7/8/22.
@@ -8,12 +8,13 @@
 import SwiftUI
 import LocalAuthentication
 
-struct ContentView: View {
+struct FaceAuth: View  {
     
-    @State private var auth = false
-    
+    @Binding var auth : Bool
+     
     var body: some View {
         VStack{
+            
             Text(auth ? "Estás autenticado" : "Necesitas autenticarte").font(.title).bold()
             Button(auth ? "Logged In with Face ID" : "Log In with Face ID"){
                 if auth {
@@ -27,11 +28,10 @@ struct ContentView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(auth ? Color.green : Color.red)
-
+        
     }
 
 private func authentication(){
-    
     var error: NSError?
     let laContext = LAContext()
     if
@@ -42,17 +42,14 @@ private func authentication(){
                 auth = true
             }
         }
-        
     }else{
         auth = true
     }
-    
 }
-
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+    static var previews: some View  {
         Group {
-            ContentView()
+            FaceAuth(auth: .constant(true))
         }
     }
 }
