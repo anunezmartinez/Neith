@@ -11,7 +11,7 @@ import SwiftUI
 struct NeithApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentPreview()
+            SplashScreenView()
         }
     }
 }
