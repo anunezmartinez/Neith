@@ -18,6 +18,8 @@
 		B7460737289F71F700DF7BA9 /* NeithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460736289F71F700DF7BA9 /* NeithTests.swift */; };
 		B7460741289F71F700DF7BA9 /* NeithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460740289F71F700DF7BA9 /* NeithUITests.swift */; };
 		B7460743289F71F700DF7BA9 /* NeithUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7460742289F71F700DF7BA9 /* NeithUITestsLaunchTests.swift */; };
+		B77D1CEB28C930C10023F993 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D1CEA28C930C10023F993 /* SplashScreen.swift */; };
+		B77D1CED28C930E70023F993 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D1CEC28C930E70023F993 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		B746073C289F71F700DF7BA9 /* NeithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeithUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7460740289F71F700DF7BA9 /* NeithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeithUITests.swift; sourceTree = "<group>"; };
 		B7460742289F71F700DF7BA9 /* NeithUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeithUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B77D1CEA28C930C10023F993 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		B77D1CEC28C930E70023F993 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			children = (
 				B7460727289F71F600DF7BA9 /* FaceAuth.swift */,
 				B72BEC1A28A97D5C00919EBC /* AuthSucc.swift */,
+				B77D1CEA28C930C10023F993 /* SplashScreen.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				B72BEC1828A97CFC00919EBC /* ContentPreview.swift */,
+				B77D1CEC28C930E70023F993 /* SplashScreenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77D1CED28C930E70023F993 /* SplashScreenView.swift in Sources */,
+				B77D1CEB28C930C10023F993 /* SplashScreen.swift in Sources */,
 				B72BEC1E28A98AEB00919EBC /* VerifyUser.swift in Sources */,
 				B72BEC1928A97CFC00919EBC /* ContentPreview.swift in Sources */,
 				B72BEC1B28A97D5C00919EBC /* AuthSucc.swift in Sources */,
