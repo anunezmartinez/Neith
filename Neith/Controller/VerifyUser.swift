@@ -16,19 +16,10 @@ struct VerifyUser: View {
         if !auth {
             FaceAuth(auth: $auth)
         } else {
-           
             AuthSucc()
-            
-        }
-        
-        
-        
-        
-        
-        
-        
         }
     }
+}
 
 
 struct VerifyUser_Previews: PreviewProvider {

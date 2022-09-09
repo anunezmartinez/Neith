@@ -9,7 +9,14 @@ import SwiftUI
 
 struct AuthSucc: View {
     var body: some View {
-        Text("Usuario Autenticado")
+        VStack(spacing: 50){
+            Text("Usuario Autenticado")
+            Link(destination: URL(string: "https://www.anunezmartinez.com")!, label: {
+                Text("Visita mi página web")
+                    .foregroundColor(.red)
+            })
+        }
+        
     }
 }
 
