@@ -3,7 +3,7 @@
 Face ID - ✅\
 Splash Screen - ✅ \
 Safari Webview - ✅ \
-Tab Web and States ❌ - In Queue \
+Tab View and States ❌ - In Queue \
 Apple Watch Implementation ❌ - In Queue \
 
 The video below might be outdated.
