@@ -2,7 +2,8 @@
 ## Features 
 Face ID - ✅\
 Splash Screen - ✅ \
-Safari Webview ❌ - In Queue\
+Safari Webview - ✅ \
+Tab Web and States ❌ - In Queue
 Apple Watch Implementation ❌ - In Queue
 
 The video below might be outdated.
