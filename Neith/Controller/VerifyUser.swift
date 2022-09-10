@@ -16,7 +16,7 @@ struct VerifyUser: View {
         if !auth {
             FaceAuth(auth: $auth)
         } else {
-            AuthSucc()
+            TabMenu()
         }
     }
 }
