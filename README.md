@@ -9,9 +9,5 @@ Apple Watch Implementation ❌ - In Queue
 
 The video below might be outdated.
 
-https://user-images.githubusercontent.com/55793100/189492349-8c05a391-836d-4ff1-8016-e32ec666022c.MP4
-
-
-
-
+https://user-images.githubusercontent.com/55793100/189493015-5172e9e0-09c8-48f9-9e63-900271aa9409.mp4
 
