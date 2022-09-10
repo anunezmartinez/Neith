@@ -8,45 +8,14 @@
 import SwiftUI
 
 struct SplashScreenView: View {
-    @State var isActive : Bool = false
-    @State private var size = 0.8
-    @State private var opacity = 0.5
 
+    @State var isActive : Bool = false
     
     var body: some View {
         if isActive {
             ContentPreview()
         } else {
-            
-            VStack {
-                VStack {
-                    Image(systemName: "mappin.and.ellipse")
-                        .font(.system(size: 80))
-                        .foregroundColor(.black)
-                    Text("Neith")
-                        .font(Font.system(size: 26).bold())
-                        .foregroundColor(.black.opacity(0.80))
-                }
-                .scaleEffect(size)
-                .opacity(opacity)
-                .onAppear {
-                    withAnimation(.easeIn(duration: 1.2)) {
-                        self.size = 0.9
-                        self.opacity = 1.00
-                    }
-                    
-                }
-                
-            }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(.red)
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                    withAnimation {
-                        self.isActive = true
-                    }
-                }
-            }
+            SplashScreen(isActive: $isActive)
             
         }
     }
