@@ -4,6 +4,7 @@ Face ID - ✅\
 Splash Screen - ✅ \
 Safari Webview - ✅ \
 Tab View - ✅ \
+AppStorage - ✅ \
 States ❌ - In Queue \
 Apple Watch Implementation ❌ - In Queue 
 
