@@ -21,6 +21,7 @@
 		B77D1CEB28C930C10023F993 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D1CEA28C930C10023F993 /* SplashScreen.swift */; };
 		B77D1CED28C930E70023F993 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D1CEC28C930E70023F993 /* SplashScreenView.swift */; };
 		B7A8D61328CCE89700B139BC /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8D61228CCE89700B139BC /* TabMenu.swift */; };
+		B7A8D61528CF8C8D00B139BC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8D61428CF8C8D00B139BC /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B77D1CEA28C930C10023F993 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		B77D1CEC28C930E70023F993 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		B7A8D61228CCE89700B139BC /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		B7A8D61428CF8C8D00B139BC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B7460727289F71F600DF7BA9 /* FaceAuth.swift */,
 				B72BEC1A28A97D5C00919EBC /* AuthSucc.swift */,
 				B77D1CEA28C930C10023F993 /* SplashScreen.swift */,
+				B7A8D61428CF8C8D00B139BC /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				B77D1CED28C930E70023F993 /* SplashScreenView.swift in Sources */,
 				B77D1CEB28C930C10023F993 /* SplashScreen.swift in Sources */,
 				B7A8D61328CCE89700B139BC /* TabMenu.swift in Sources */,
+				B7A8D61528CF8C8D00B139BC /* UserData.swift in Sources */,
 				B72BEC1E28A98AEB00919EBC /* VerifyUser.swift in Sources */,
 				B72BEC1928A97CFC00919EBC /* ContentPreview.swift in Sources */,
 				B72BEC1B28A97D5C00919EBC /* AuthSucc.swift in Sources */,

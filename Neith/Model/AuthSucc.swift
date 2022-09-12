@@ -13,9 +13,11 @@ struct AuthSucc: View {
             Text("Usuario Autenticado")
             Link(destination: URL(string: "https://www.anunezmartinez.com")!, label: {
                 Text("Visita mi página web")
-                    .foregroundColor(.red)
+                    .foregroundColor(.black)
+                    .underline()
             })
         }
+
         
     }
 }
