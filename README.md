@@ -5,6 +5,7 @@ Splash Screen - ✅ \
 Safari Webview - ✅ \
 Tab View - ✅ \
 AppStorage - ✅ \
+TabMenu transition and code quality improv ❌ - In Queue \
 States ❌ - In Queue \
 Apple Watch Implementation ❌ - In Queue 
 
